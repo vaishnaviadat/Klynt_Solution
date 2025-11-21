@@ -1,6 +1,4 @@
-// =============================
 // MOBILE MENU
-// =============================
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
 
@@ -8,9 +6,7 @@ menuBtn.addEventListener("click", () => {
     navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
 });
 
-// =============================
 // TRAVEL PACKAGES (DUMMY DATA)
-// =============================
 const packageList = document.getElementById("packageList");
 
 const packages = [
